@@ -1,0 +1,16 @@
+{
+    "name": "ramuchit/hello-composer",
+    "description": "This is dev composer to publish and testing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ram Uchit",
+            "email": "2210ramuchit@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"ramuchit\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
